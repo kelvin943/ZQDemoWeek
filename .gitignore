@@ -1,0 +1,45 @@
+# Cocoapods
+Pods/*
+
+# OS X Finder
+.DS_Store
+
+# Xcode per-user config
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+
+
+
+## Other
+*.moved-aside
+*.xcuserstate
+xcuserdata/
+
+# Build products
+build/
+DerivedData/
+*.o
+*.LinkFileList
+*.hmap
+
+# Automatic backup files
+*~.nib/
+*.swp
+*~
+*.dat
+*.dep
+
+CommonLibs/CommonLibs.xcodeproj/xcuserdata
+DataFoundation/DataFoundation.xcodeproj/xcuserdata
+NetFoundation/NetFoundation.xcodeproj/xcuserdata
+TestFramework/TestFramework.xcodeproj/xcuserdata
+
