@@ -1,0 +1,6 @@
+framework module Pods_ZQDemoWeek {
+  umbrella header "Pods-ZQDemoWeek-umbrella.h"
+
+  export *
+  module * { export * }
+}

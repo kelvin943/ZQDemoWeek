@@ -13,9 +13,11 @@
 		89FFA96220E381B200AB2E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89FFA96120E381B200AB2E99 /* Assets.xcassets */; };
 		89FFA96520E381B200AB2E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89FFA96320E381B200AB2E99 /* LaunchScreen.storyboard */; };
 		89FFA96820E381B200AB2E99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89FFA96720E381B200AB2E99 /* main.m */; };
+		95B8CB973552B89F391D6555 /* Pods_ZQDemoWeek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A1A347F707AE34B192FBCD /* Pods_ZQDemoWeek.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BF3E37BAFF2C9FED9A29F2A /* Pods-ZQDemoWeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQDemoWeek.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZQDemoWeek/Pods-ZQDemoWeek.release.xcconfig"; sourceTree = "<group>"; };
 		89FFA95520E381AA00AB2E99 /* ZQDemoWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQDemoWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89FFA95820E381AA00AB2E99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		89FFA95920E381AA00AB2E99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +28,8 @@
 		89FFA96420E381B200AB2E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89FFA96620E381B200AB2E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89FFA96720E381B200AB2E99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91A1A347F707AE34B192FBCD /* Pods_ZQDemoWeek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQDemoWeek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A901AB61597F9171D60C5AAD /* Pods-ZQDemoWeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZQDemoWeek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZQDemoWeek/Pods-ZQDemoWeek.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B8CB973552B89F391D6555 /* Pods_ZQDemoWeek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		190732F7FA9DEEFBF66103E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A901AB61597F9171D60C5AAD /* Pods-ZQDemoWeek.debug.xcconfig */,
+				0BF3E37BAFF2C9FED9A29F2A /* Pods-ZQDemoWeek.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		89FFA94C20E381AA00AB2E99 = {
 			isa = PBXGroup;
 			children = (
 				89FFA95720E381AA00AB2E99 /* ZQDemoWeek */,
 				89FFA95620E381AA00AB2E99 /* Products */,
+				190732F7FA9DEEFBF66103E1 /* Pods */,
+				DC7AE2ABA9593C9DA428B417 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +87,14 @@
 			path = ZQDemoWeek;
 			sourceTree = "<group>";
 		};
+		DC7AE2ABA9593C9DA428B417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91A1A347F707AE34B192FBCD /* Pods_ZQDemoWeek.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89FFA96B20E381B200AB2E99 /* Build configuration list for PBXNativeTarget "ZQDemoWeek" */;
 			buildPhases = (
+				C7F6AD5C431E33AA8528B05D /* [CP] Check Pods Manifest.lock */,
 				89FFA95120E381AA00AB2E99 /* Sources */,
 				89FFA95220E381AA00AB2E99 /* Frameworks */,
 				89FFA95320E381AA00AB2E99 /* Resources */,
+				D9855036A2552BA4B2763C1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +161,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C7F6AD5C431E33AA8528B05D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZQDemoWeek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9855036A2552BA4B2763C1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZQDemoWeek/Pods-ZQDemoWeek-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WeexSDK/WeexSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WeexSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZQDemoWeek/Pods-ZQDemoWeek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		89FFA95120E381AA00AB2E99 /* Sources */ = {
@@ -281,6 +346,7 @@
 		};
 		89FFA96C20E381B200AB2E99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A901AB61597F9171D60C5AAD /* Pods-ZQDemoWeek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +364,7 @@
 		};
 		89FFA96D20E381B200AB2E99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF3E37BAFF2C9FED9A29F2A /* Pods-ZQDemoWeek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
