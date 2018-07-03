@@ -1,0 +1,6 @@
+framework module PAFoundation {
+  umbrella header "PAFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

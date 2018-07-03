@@ -1,16 +1,89 @@
 PODS:
+  - PAFoundation/Common/Category (0.7.0):
+    - PAFoundation/PAAppConfigCategory
+  - PAFoundation/Common/DataModel (0.7.0)
+  - PAFoundation/Common/Other (0.7.0):
+    - PAFoundation/Common/Category
+  - PAFoundation/PAAppConfigCategory (0.7.0):
+    - PAFoundation/PAMediator
+  - PAFoundation/PAMediator (0.7.0)
+  - PAFoundation/PANavigator (0.7.0):
+    - PAFoundation/Common/Category
+    - PAFoundation/Common/DataModel
+  - PAUIKit (0.1.0):
+    - PAUIKit/Category (= 0.1.0)
+    - PAUIKit/Controller (= 0.1.0)
+    - PAUIKit/PABannerView (= 0.1.0)
+    - PAUIKit/PADebugTool (= 0.1.0)
+    - PAUIKit/PAFullscreenPage (= 0.1.0)
+    - PAUIKit/PageController (= 0.1.0)
+    - PAUIKit/PAImageView (= 0.1.0)
+    - PAUIKit/PATableView (= 0.1.0)
+  - PAUIKit/Category (0.1.0):
+    - PAFoundation/PAAppConfigCategory
+  - PAUIKit/Controller (0.1.0):
+    - PAFoundation/Common/Category
+    - PAFoundation/PANavigator
+    - PAUIKit/Category
+    - PAUIKit/PAFullscreenPage
+    - WebViewJavascriptBridge (~> 6.0.2)
+  - PAUIKit/PABannerView (0.1.0):
+    - PAUIKit/PAImageView
+  - PAUIKit/PADebugTool (0.1.0):
+    - PAFoundation/Common/Other
+    - PAFoundation/PANavigator
+    - PAUIKit/Controller
+  - PAUIKit/PAFullscreenPage (0.1.0)
+  - PAUIKit/PageController (0.1.0):
+    - PAUIKit/Controller
+  - PAUIKit/PAImageView (0.1.0):
+    - SDWebImage (~> 4.1.0)
+  - PAUIKit/PATableView (0.1.0):
+    - PAUIKit/PATableView/Cells (= 0.1.0)
+    - PAUIKit/PATableView/CustomViews (= 0.1.0)
+    - PAUIKit/PATableView/DataConstructor (= 0.1.0)
+    - PAUIKit/PATableView/TableviewController (= 0.1.0)
+    - PAUIKit/PATableView/ViewAdaptor (= 0.1.0)
+  - PAUIKit/PATableView/Cells (0.1.0):
+    - PAFoundation/Common/DataModel
+    - PAUIKit/Category
+  - PAUIKit/PATableView/CustomViews (0.1.0):
+    - PAUIKit/Category
+  - PAUIKit/PATableView/DataConstructor (0.1.0):
+    - PAFoundation/Common/DataModel
+  - PAUIKit/PATableView/TableviewController (0.1.0):
+    - PAFoundation/Common/Category
+    - PAUIKit/Controller
+    - PAUIKit/PATableView/ViewAdaptor
+  - PAUIKit/PATableView/ViewAdaptor (0.1.0):
+    - PAUIKit/PATableView/Cells
+    - PAUIKit/PATableView/CustomViews
+  - SDWebImage (4.1.2):
+    - SDWebImage/Core (= 4.1.2)
+  - SDWebImage/Core (4.1.2)
+  - WebViewJavascriptBridge (6.0.3)
   - WeexSDK (0.18.0)
 
 DEPENDENCIES:
+  - PAUIKit (~> 0.1.0)
   - WeexSDK (~> 0.18.0)
 
 SPEC REPOS:
+  "git@git.ipo.com:hf-ios-1/paspecs.git":
+    - PAFoundation
+    - PAUIKit
   https://github.com/cocoapods/specs.git:
+    - SDWebImage
+    - WebViewJavascriptBridge
     - WeexSDK
 
 SPEC CHECKSUMS:
+  PAFoundation: 0fa9f5667f5bfcb0549ddebe813af58388974b7f
+  PAUIKit: 42af4bfd48352d780b844cfa7531e51c81bf6e9e
+  SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
   WeexSDK: ac56f255ce9a48e93ebc2e003956ab20da33321d
 
-PODFILE CHECKSUM: b2ec06973e1b64b4139b5f0ef160524466f504b7
+PODFILE CHECKSUM: 2be71edcabd392ccc53fbc0eadf78e787db7c86d
 
 COCOAPODS: 1.5.3
