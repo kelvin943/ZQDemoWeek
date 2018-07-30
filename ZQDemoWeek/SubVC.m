@@ -18,12 +18,14 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
+
     NSLog(@"hotfix");
     NSLog(@"hotfix2");
     NSLog(@"hotfix2");
     NSLog(@"开发分支修复BUG");
     NSLog(@"开发分支修复BUG1");
-    
+    NSLog(@"分支提交");
+
 }
 
 -(void) viewDidDisappear:(BOOL)animated{
