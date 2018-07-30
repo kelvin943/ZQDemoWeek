@@ -17,22 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSLog(@"A开发需求提交");
 
 
-    NSLog(@"hotfix");
-    NSLog(@"hotfix2");
-    NSLog(@"hotfix2");
-    NSLog(@"开发分支修复BUG");
-    NSLog(@"开发分支修复BUG1");
-    NSLog(@"开发分支修复BUG2");
-    NSLog(@"开发分支修复BUG3");
-    NSLog(@"分支提交");
 
 }
 
 -(void) viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
     NSLog (@" Disappear: %@",self.title);
+
     NSLog(@"开发分支开发需求1");
     NSLog(@"开发分支开发需求2");
     NSLog(@"B开发需求提交");
