@@ -19,10 +19,6 @@
     // Do any additional setup after loading the view.
 
     NSLog(@"develop 修复 BUG");
-
-
-
-
 }
 
 -(void) viewDidDisappear:(BOOL)animated{
