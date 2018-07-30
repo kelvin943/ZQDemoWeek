@@ -25,6 +25,7 @@
     NSLog(@"开发分支修复BUG");
     NSLog(@"开发分支修复BUG1");
     NSLog(@"开发分支修复BUG2");
+    NSLog(@"开发分支修复BUG3");
     NSLog(@"分支提交");
 
 }
