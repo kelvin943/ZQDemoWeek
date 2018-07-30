@@ -18,15 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-
-    NSLog(@"develop修复BUG1");
-
-    NSLog(@"develop1 开发需求");
-
-
-
-
-    NSLog(@"develop2 修复需求");
+    NSLog(@"develop 修复 BUG");
 
 
 
