@@ -17,11 +17,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
     NSLog(@"测试修改2");
     NSLog(@"测试修改2");
     NSLog(@"测试修改2");
     NSLog(@"测试修改2");
     
+    NSLog(@"测试修改");
+     NSLog(@"测试修改");
+     NSLog(@"测试修改");
+     NSLog(@"测试修改");
+
     return YES;
 }
 
@@ -39,9 +45,9 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-    NSLog(@"合并分支")
-    NSLog(@"合并分支修改")
-    NSLog(@"合并分支修改")
+    NSLog(@"合并分支");
+    NSLog(@"合并分支修改");
+    NSLog(@"合并分支修改");
 }
 
 
