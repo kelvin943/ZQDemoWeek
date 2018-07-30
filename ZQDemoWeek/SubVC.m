@@ -18,11 +18,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
+
     NSLog(@"develop修复BUG1");
 
     NSLog(@"develop1 开发需求");
 
 
+
+
+    NSLog(@"develop2 修复需求");
 
 
 
@@ -32,7 +36,6 @@
 -(void) viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
     NSLog (@" Disappear: %@",self.title);
-
 }
 
 -(void) viewWillAppear:(BOOL)animated{
