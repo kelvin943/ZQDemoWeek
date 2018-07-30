@@ -31,6 +31,7 @@
 -(void) viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
     NSLog (@" Disappear: %@",self.title);
+     NSLog(@"开发分支开发需求1");
 }
 
 -(void) viewWillAppear:(BOOL)animated{
