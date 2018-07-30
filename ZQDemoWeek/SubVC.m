@@ -19,6 +19,8 @@
     // Do any additional setup after loading the view.
 
     NSLog(@"hotfix");
+    NSLog(@"hotfix2");
+    NSLog(@"hotfix2");
 }
 
 -(void) viewDidDisappear:(BOOL)animated{
