@@ -17,6 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSLog(@"测试修改")
+    
+    
     // Do any additional setup after loading the view.
 }
 
@@ -24,6 +28,8 @@
     
     PATransactionContainerController * nextVC =  [[PATransactionContainerController alloc] init];
     [self.navigationController pushViewController:nextVC animated:YES];
+    
+     NSLog(@"测试修改")
  }
 
 - (void)didReceiveMemoryWarning {
