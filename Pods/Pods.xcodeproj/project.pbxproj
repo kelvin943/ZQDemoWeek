@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -553,7 +553,7 @@
 		024B7745FC0FDB2A165181510DBD5055 /* PANavigationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PANavigationViewController.m; path = Controller/Classes/PANavigationViewController.m; sourceTree = "<group>"; };
 		029124E9323A96C654052999921B1D65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		02B81A548290D72FC7632B0DCE8C3445 /* UIColor+Category.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Category.m"; path = "Category/Classes/UIColor+Category.m"; sourceTree = "<group>"; };
-		05256D15749692EABEB4F0C35F1EB151 /* Pods_ZQDemoWeek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZQDemoWeek.framework; path = "Pods-ZQDemoWeek.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05256D15749692EABEB4F0C35F1EB151 /* Pods_ZQDemoWeek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZQDemoWeek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		053F6619D2B03798C3A0EC2D6B0C7F0D /* PANetworkDataConstructor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PANetworkDataConstructor.h; path = PATableView/Classes/DataConstructor/PANetworkDataConstructor.h; sourceTree = "<group>"; };
 		060D2A3A7865D12229AAD157E7389627 /* WXAppMonitorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXAppMonitorProtocol.h; path = ios/sdk/WeexSDK/Sources/Protocol/WXAppMonitorProtocol.h; sourceTree = "<group>"; };
 		061FB5080C130B452ABD653DC539CF75 /* WebViewJavascriptBridge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WebViewJavascriptBridge.xcconfig; sourceTree = "<group>"; };
@@ -575,7 +575,7 @@
 		0F9FB4D76C8B784A47D7BB679733C2D0 /* WXJSASTParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXJSASTParser.h; path = ios/sdk/WeexSDK/Sources/Component/RecycleList/WXJSASTParser.h; sourceTree = "<group>"; };
 		10879E85490905497CF8D6555C438014 /* WXRootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRootView.h; path = ios/sdk/WeexSDK/Sources/View/WXRootView.h; sourceTree = "<group>"; };
 		10CD30EA4D71F91811AEEA77F42FAF31 /* WXDiffUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXDiffUtil.h; path = ios/sdk/WeexSDK/Sources/Utility/WXDiffUtil.h; sourceTree = "<group>"; };
-		111CCAD22EE209A6C679B5CB32DA9258 /* WXRoundedRect.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WXRoundedRect.mm; path = ios/sdk/WeexSDK/Sources/Display/WXRoundedRect.mm; sourceTree = "<group>"; };
+		111CCAD22EE209A6C679B5CB32DA9258 /* WXRoundedRect.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WXRoundedRect.mm; path = ios/sdk/WeexSDK/Sources/Display/WXRoundedRect.mm; sourceTree = "<group>"; };
 		112606BC12DEAF2F3839FF00F7352C52 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
 		113E799BCA991C3EA31B2E8647FDFE0A /* PABannerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PABannerView.m; path = PABannerView/Classes/PABannerView.m; sourceTree = "<group>"; };
 		1145D6826FD002233BBECFDD24B6AF61 /* WXRecyclerDataController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRecyclerDataController.h; path = ios/sdk/WeexSDK/Sources/Component/Recycler/WXRecyclerDataController.h; sourceTree = "<group>"; };
@@ -628,7 +628,7 @@
 		291C3EE63916B4DD8379AE45EBD3867A /* PAUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PAUIKit-prefix.pch"; sourceTree = "<group>"; };
 		2A2FB11A591AF9C4754213CC0ABE6927 /* PABaseWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PABaseWebViewController.h; path = Controller/Classes/PABaseWebViewController.h; sourceTree = "<group>"; };
 		2A69C2F7B159A35E73FDB2F90C8EFB88 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
-		2B4E63F4536792DFF3F98447DE84727B /* PAUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PAUIKit.framework; path = PAUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4E63F4536792DFF3F98447DE84727B /* PAUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PAUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4E95E0C50D10A9E4044893DE4476F0 /* NSObject+WXSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+WXSwizzle.h"; path = "ios/sdk/WeexSDK/Sources/Utility/NSObject+WXSwizzle.h"; sourceTree = "<group>"; };
 		2BE194D85617EF572E6DCD5F1DDDA3B6 /* WXLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXLayer.m; path = ios/sdk/WeexSDK/Sources/Display/WXLayer.m; sourceTree = "<group>"; };
 		2C2C18D6C34A35320211F8E5EC183035 /* NSString+PASize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+PASize.m"; path = "Common/Classes/Category/NSString+PASize.m"; sourceTree = "<group>"; };
@@ -692,7 +692,7 @@
 		49D265A62AD30065E40E92A6461355D0 /* PAPlistManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PAPlistManager.h; path = Common/Classes/Other/PAPlistManager.h; sourceTree = "<group>"; };
 		4A17B0CD7C1314291B93484B4870D9F4 /* PANavigatorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PANavigatorProtocol.h; path = Controller/Classes/PANavigatorProtocol.h; sourceTree = "<group>"; };
 		4A44F135CA702C57879C4E117C43BA39 /* WXResourceLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXResourceLoader.h; path = ios/sdk/WeexSDK/Sources/Loader/WXResourceLoader.h; sourceTree = "<group>"; };
-		4A82CFE6A20552227C9BE0FC47ED47D9 /* Layout.c */ = {isa = PBXFileReference; includeInIndex = 1; name = Layout.c; path = ios/sdk/WeexSDK/Sources/Layout/Layout.c; sourceTree = "<group>"; };
+		4A82CFE6A20552227C9BE0FC47ED47D9 /* Layout.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = Layout.c; path = ios/sdk/WeexSDK/Sources/Layout/Layout.c; sourceTree = "<group>"; };
 		4A9A1621E05837FD649D58AC3A6AB695 /* UIBezierPath+Weex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+Weex.h"; path = "ios/sdk/WeexSDK/Sources/Display/UIBezierPath+Weex.h"; sourceTree = "<group>"; };
 		4AD45BAA74C76438891D52C1E4A3ABD2 /* WXRecyclerDragController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRecyclerDragController.h; path = ios/sdk/WeexSDK/Sources/Component/Recycler/WXRecyclerDragController.h; sourceTree = "<group>"; };
 		4B4C5CDA88A4D81BF859FF7DFB02866B /* WXThreadSafeMutableDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXThreadSafeMutableDictionary.m; path = ios/sdk/WeexSDK/Sources/Utility/WXThreadSafeMutableDictionary.m; sourceTree = "<group>"; };
@@ -767,7 +767,7 @@
 		6DD5070A08627B53DDF4C77DCC3B0BD0 /* WXHeaderComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXHeaderComponent.h; path = ios/sdk/WeexSDK/Sources/Component/WXHeaderComponent.h; sourceTree = "<group>"; };
 		6F82447867D1BCF0D85001D563968F96 /* WXDestroyProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXDestroyProtocol.h; path = ios/sdk/WeexSDK/Sources/Protocol/WXDestroyProtocol.h; sourceTree = "<group>"; };
 		704816B600F98D1B81504EF881FEB651 /* PANavigator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PANavigator.m; path = PANavigator/Classes/PANavigator.m; sourceTree = "<group>"; };
-		71C4BAACAECC7B2B528DF4EFF70354AC /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WebViewJavascriptBridge.framework; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C4BAACAECC7B2B528DF4EFF70354AC /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B11E39D7C9A7C608D1027D09B8289F /* WXComponent+PseudoClassManagement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WXComponent+PseudoClassManagement.m"; path = "ios/sdk/WeexSDK/Sources/View/WXComponent+PseudoClassManagement.m"; sourceTree = "<group>"; };
 		72B3AA34F8AB8DEB8ECF4811E4183100 /* UIView+PALayoutHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+PALayoutHelper.h"; path = "Category/Classes/UIView+PALayoutHelper.h"; sourceTree = "<group>"; };
 		730DE6BF4FA7D6DDD482C53AEA49D267 /* WebViewJavascriptBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WebViewJavascriptBridge-prefix.pch"; sourceTree = "<group>"; };
@@ -777,7 +777,7 @@
 		74BDB508A0B06AC351429530F76C7D67 /* NSArray+Weex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Weex.m"; path = "ios/sdk/WeexSDK/Sources/Utility/NSArray+Weex.m"; sourceTree = "<group>"; };
 		755DE7D5297FA6D1F8C278CCE575B8E1 /* Pods-ZQDemoWeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZQDemoWeek.debug.xcconfig"; sourceTree = "<group>"; };
 		75A484D41A0C5CD4F372A38A4CC58F49 /* PAFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PAFoundation-dummy.m"; sourceTree = "<group>"; };
-		75A8ECFE32BD7DEAB0AB549EEBF8E850 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A8ECFE32BD7DEAB0AB549EEBF8E850 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		770B36F7118B7E9DEA6036FD7D0F7E97 /* UINavigationController+PAFullscreenPage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+PAFullscreenPage.m"; path = "PAFullscreenPage/Classes/UINavigationController+PAFullscreenPage.m"; sourceTree = "<group>"; };
 		7779F3BFA171772E4E13B4E3A668D195 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		78BEA281D9066E74567985AFC82C8594 /* PAPageControllerTransitionCoordinatorImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PAPageControllerTransitionCoordinatorImpl.m; path = Controller/Classes/PAPageController/PAPageControllerTransitionCoordinatorImpl.m; sourceTree = "<group>"; };
@@ -832,7 +832,7 @@
 		91664B80F7067B10472DD1701013E1DE /* PALoadFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PALoadFooterView.m; path = PATableView/Classes/CustomViews/PALoadFooterView.m; sourceTree = "<group>"; };
 		9187EA786F516DD2FF21F380EB2E0F2A /* WXTextComponentProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXTextComponentProtocol.h; path = ios/sdk/WeexSDK/Sources/Protocol/WXTextComponentProtocol.h; sourceTree = "<group>"; };
 		931CD5E1B1377F0137DDDA94C20A03EF /* PAViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PAViewController.h; path = Controller/Classes/PAViewController.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93C1F35A38A37C0998AD56ABF70C893E /* WXComponent+PseudoClassManagement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WXComponent+PseudoClassManagement.h"; path = "ios/sdk/WeexSDK/Sources/View/WXComponent+PseudoClassManagement.h"; sourceTree = "<group>"; };
 		9436D8FE608A4284E9D940E37B3A8707 /* WXScrollerComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXScrollerComponent.m; path = ios/sdk/WeexSDK/Sources/Component/WXScrollerComponent.m; sourceTree = "<group>"; };
 		9482E1043156E03CFF47B4EE3B6DE271 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
@@ -884,7 +884,7 @@
 		ACE1F2E2C2FA478C8B645F6EAA2C0C7B /* WXComponent+ViewManagement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WXComponent+ViewManagement.m"; path = "ios/sdk/WeexSDK/Sources/View/WXComponent+ViewManagement.m"; sourceTree = "<group>"; };
 		AD77226D7B67BB826F851D37FA719E9C /* PALoadFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PALoadFooterView.h; path = PATableView/Classes/CustomViews/PALoadFooterView.h; sourceTree = "<group>"; };
 		AE67E71BDE6E65744C01A80F7437367D /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
-		AE959D9690C88632D76F323B8175145A /* PAFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PAFoundation.framework; path = PAFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE959D9690C88632D76F323B8175145A /* PAFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PAFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF586243D64C58F5952F097FB510407F /* WXAComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXAComponent.m; path = ios/sdk/WeexSDK/Sources/Component/WXAComponent.m; sourceTree = "<group>"; };
 		AF76FB0CEB03DB5A3B234972FB8764C8 /* WXWebComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXWebComponent.m; path = ios/sdk/WeexSDK/Sources/Component/WXWebComponent.m; sourceTree = "<group>"; };
 		AFE5C4BF47CD1591E72707B02518C3EE /* PAPageControllerCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PAPageControllerCollectionViewCell.m; path = Controller/Classes/PAPageController/PAPageControllerCollectionViewCell.m; sourceTree = "<group>"; };
@@ -926,7 +926,7 @@
 		BDC8DCE1CC0B0CE5051029860B18B150 /* WXMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXMonitor.h; path = ios/sdk/WeexSDK/Sources/Monitor/WXMonitor.h; sourceTree = "<group>"; };
 		BEB992ED7A0AD3F9E4B5F4979282FF88 /* WXBridgeMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXBridgeMethod.h; path = ios/sdk/WeexSDK/Sources/Bridge/WXBridgeMethod.h; sourceTree = "<group>"; };
 		BFC747A1072F4DB55F4494B39782AF93 /* WXComponent+BoxShadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WXComponent+BoxShadow.m"; path = "ios/sdk/WeexSDK/Sources/Display/WXComponent+BoxShadow.m"; sourceTree = "<group>"; };
-		BFD42CDF6D3FDB70A2D69CC122CCD616 /* WXComponent+DataBinding.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WXComponent+DataBinding.mm"; path = "ios/sdk/WeexSDK/Sources/Component/RecycleList/WXComponent+DataBinding.mm"; sourceTree = "<group>"; };
+		BFD42CDF6D3FDB70A2D69CC122CCD616 /* WXComponent+DataBinding.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "WXComponent+DataBinding.mm"; path = "ios/sdk/WeexSDK/Sources/Component/RecycleList/WXComponent+DataBinding.mm"; sourceTree = "<group>"; };
 		C096992A7485E27DD275C33773D6F9EC /* WXDomModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXDomModule.m; path = ios/sdk/WeexSDK/Sources/Module/WXDomModule.m; sourceTree = "<group>"; };
 		C098D28170750844E9C4258E45539218 /* WXAnimationModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXAnimationModule.h; path = ios/sdk/WeexSDK/Sources/Module/WXAnimationModule.h; sourceTree = "<group>"; };
 		C16E043052EBCA7DA99EDE834095D46A /* WXPolyfillSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXPolyfillSet.h; path = ios/sdk/WeexSDK/Sources/Bridge/WXPolyfillSet.h; sourceTree = "<group>"; };
@@ -986,7 +986,7 @@
 		DBA469B3FE66B54C039F39B01F80CF74 /* WXResourceResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXResourceResponse.m; path = ios/sdk/WeexSDK/Sources/Network/WXResourceResponse.m; sourceTree = "<group>"; };
 		DD5E56425D6DC9080C837C3A2A1BDEDB /* WXRoundedRect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRoundedRect.h; path = ios/sdk/WeexSDK/Sources/Display/WXRoundedRect.h; sourceTree = "<group>"; };
 		DDF16694AD6BFB5F3A04DFEC7953C77D /* PATableViewWithLineCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PATableViewWithLineCell.h; path = PATableView/Classes/Cells/PATableViewWithLineCell.h; sourceTree = "<group>"; };
-		DDF4FDEC8320D8C622C3CDABBB13589D /* WeexSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WeexSDK.framework; path = WeexSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF4FDEC8320D8C622C3CDABBB13589D /* WeexSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeexSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3E49A467F79DB5CE1F3C871319C456 /* WXUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXUtility.m; path = ios/sdk/WeexSDK/Sources/Utility/WXUtility.m; sourceTree = "<group>"; };
 		DE402F48E4BBFFF093215D641FB8E080 /* WXAppConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXAppConfiguration.m; path = ios/sdk/WeexSDK/Sources/Utility/WXAppConfiguration.m; sourceTree = "<group>"; };
 		DE6B05065AE53DE229DC1D82F093843E /* NSDateFormatter+PACategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+PACategory.m"; path = "Common/Classes/Category/NSDateFormatter+PACategory.m"; sourceTree = "<group>"; };
@@ -1013,7 +1013,7 @@
 		E8FD14F25CA2BC341D85B767CE1BA149 /* WXRecycleListLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRecycleListLayout.h; path = ios/sdk/WeexSDK/Sources/Component/RecycleList/WXRecycleListLayout.h; sourceTree = "<group>"; };
 		E925E24E7A7D103E1B7466B7804A9FD7 /* PANetworkDataConstructorProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PANetworkDataConstructorProtocol.h; path = PATableView/Classes/DataConstructor/PANetworkDataConstructorProtocol.h; sourceTree = "<group>"; };
 		E9463C5809EA6CD850EFD08933CDF9E9 /* WXSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXSDKManager.h; path = ios/sdk/WeexSDK/Sources/Manager/WXSDKManager.h; sourceTree = "<group>"; };
-		E9DF5EC02070000B53ADCA2191715CE1 /* WXJSASTParser.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WXJSASTParser.mm; path = ios/sdk/WeexSDK/Sources/Component/RecycleList/WXJSASTParser.mm; sourceTree = "<group>"; };
+		E9DF5EC02070000B53ADCA2191715CE1 /* WXJSASTParser.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = WXJSASTParser.mm; path = ios/sdk/WeexSDK/Sources/Component/RecycleList/WXJSASTParser.mm; sourceTree = "<group>"; };
 		EA70CC8ED30ECA36D109B780055335BE /* WXComponent+BoxShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WXComponent+BoxShadow.h"; path = "ios/sdk/WeexSDK/Sources/Display/WXComponent+BoxShadow.h"; sourceTree = "<group>"; };
 		EA939181B6EDA76566020995AFBEAFDD /* NSString+PADate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+PADate.h"; path = "Common/Classes/Category/NSString+PADate.h"; sourceTree = "<group>"; };
 		EAD76F70609C0C05FC6D6ED7CA39E72C /* WXComponentMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXComponentMethod.m; path = ios/sdk/WeexSDK/Sources/Bridge/WXComponentMethod.m; sourceTree = "<group>"; };
@@ -1022,7 +1022,7 @@
 		EBF101D46CEAEFB9278477FE43EE4DE8 /* UINavigationController+PAFullscreenPage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+PAFullscreenPage.h"; path = "PAFullscreenPage/Classes/UINavigationController+PAFullscreenPage.h"; sourceTree = "<group>"; };
 		EE099879E789166448AF67BE7747A934 /* WXRuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXRuleManager.h; path = ios/sdk/WeexSDK/Sources/Manager/WXRuleManager.h; sourceTree = "<group>"; };
 		EE22835E0CF3AFB0B459A5E45CE32951 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		EE3E2B2FD913A8ADE84107DEB17D059C /* native-bundle-main.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "native-bundle-main.js"; path = "pre-build/native-bundle-main.js"; sourceTree = "<group>"; };
+		EE3E2B2FD913A8ADE84107DEB17D059C /* native-bundle-main.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = "native-bundle-main.js"; path = "pre-build/native-bundle-main.js"; sourceTree = "<group>"; };
 		EEB6582B1491929A13BDF31949EA3FA7 /* PAFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PAFoundation-umbrella.h"; sourceTree = "<group>"; };
 		EEBF7F8AA72BC98808BAD681F1931E15 /* WXSectionDataController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WXSectionDataController.m; path = ios/sdk/WeexSDK/Sources/Component/Recycler/WXSectionDataController.m; sourceTree = "<group>"; };
 		F15AB5D1B429F9B55FB6070172B29417 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
@@ -1156,13 +1156,11 @@
 				C54048D77CFBC0643CA26634893FAACA /* Controller */,
 				D0293511EA327FB99EA08576E4AE246B /* PABannerView */,
 				E73A45AAAD8FF0CD4D6ECEBCBDF8AFC2 /* PADebugTool */,
-				83B73295662D904E7893B1A082BADCB7 /* PAFullscreenPage */,
 				DEC025D548A2BD0562F38AD9067AB88E /* PageController */,
 				1BC90E2BE845D26E3831B5C17AD5095F /* PAImageView */,
 				91F03D5E7F1BA00883EE1078223D3F0D /* PATableView */,
 				F73CFBD8DEEDC460DD7404E3F9CBD5B8 /* Support Files */,
 			);
-			name = PAUIKit;
 			path = PAUIKit;
 			sourceTree = "<group>";
 		};
@@ -1255,7 +1253,6 @@
 				86C8BF9DA26C4B13F6C64541937F5387 /* WKWebViewJavascriptBridge.m */,
 				266E04AEAA86DF56B16DE81BE4EA8DEC /* Support Files */,
 			);
-			name = WebViewJavascriptBridge;
 			path = WebViewJavascriptBridge;
 			sourceTree = "<group>";
 		};
@@ -1583,7 +1580,6 @@
 				C25EECD5E8A22F1F6FA69A6E46C76C97 /* Resources */,
 				3A51D09C13B2BC6C3B4DF7B503AA75DA /* Support Files */,
 			);
-			name = WeexSDK;
 			path = WeexSDK;
 			sourceTree = "<group>";
 		};
@@ -1724,7 +1720,6 @@
 				B139D35D00B8D378313AF368F70CBE65 /* Core */,
 				88E70FB56B426795B5DA18D39429EC62 /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -1779,7 +1774,6 @@
 				62D2D4095E3F448017869D20C1ABB184 /* PANavigator */,
 				0831DC9B68708CC49F8B1A879A09A5CF /* Support Files */,
 			);
-			name = PAFoundation;
 			path = PAFoundation;
 			sourceTree = "<group>";
 		};
@@ -1868,6 +1862,7 @@
 		DEC025D548A2BD0562F38AD9067AB88E /* PageController */ = {
 			isa = PBXGroup;
 			children = (
+				83B73295662D904E7893B1A082BADCB7 /* PAFullscreenPage */,
 				30F01C1D0B5A4B66490A50FA9A3A6701 /* PAPageController.h */,
 				78F64665135A9063FC9F5A1723628BA9 /* PAPageController.m */,
 				B0832A46BDDCCF6550DB012902AF6382 /* PAPageControllerCollectionViewCell.h */,
@@ -2720,11 +2715,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ZQDemoWeek/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ZQDemoWeek/Pods-ZQDemoWeek.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2821,11 +2812,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-ZQDemoWeek/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ZQDemoWeek/Pods-ZQDemoWeek.modulemap";
 				OTHER_LDFLAGS = "";
@@ -2858,11 +2845,7 @@
 				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
 				PRODUCT_MODULE_NAME = SDWebImage;
 				PRODUCT_NAME = SDWebImage;
@@ -2892,11 +2875,7 @@
 				INFOPLIST_FILE = "Target Support Files/PAFoundation/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PAFoundation/PAFoundation.modulemap";
 				PRODUCT_MODULE_NAME = PAFoundation;
 				PRODUCT_NAME = PAFoundation;
@@ -2927,11 +2906,7 @@
 				INFOPLIST_FILE = "Target Support Files/WeexSDK/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WeexSDK/WeexSDK.modulemap";
 				PRODUCT_MODULE_NAME = WeexSDK;
 				PRODUCT_NAME = WeexSDK;
@@ -2961,11 +2936,7 @@
 				INFOPLIST_FILE = "Target Support Files/WebViewJavascriptBridge/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge.modulemap";
 				PRODUCT_MODULE_NAME = WebViewJavascriptBridge;
 				PRODUCT_NAME = WebViewJavascriptBridge;
@@ -2996,11 +2967,7 @@
 				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
 				PRODUCT_MODULE_NAME = SDWebImage;
 				PRODUCT_NAME = SDWebImage;
@@ -3031,11 +2998,7 @@
 				INFOPLIST_FILE = "Target Support Files/PAUIKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PAUIKit/PAUIKit.modulemap";
 				PRODUCT_MODULE_NAME = PAUIKit;
 				PRODUCT_NAME = PAUIKit;
@@ -3066,11 +3029,7 @@
 				INFOPLIST_FILE = "Target Support Files/PAUIKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PAUIKit/PAUIKit.modulemap";
 				PRODUCT_MODULE_NAME = PAUIKit;
 				PRODUCT_NAME = PAUIKit;
@@ -3100,11 +3059,7 @@
 				INFOPLIST_FILE = "Target Support Files/WeexSDK/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WeexSDK/WeexSDK.modulemap";
 				PRODUCT_MODULE_NAME = WeexSDK;
 				PRODUCT_NAME = WeexSDK;
@@ -3135,11 +3090,7 @@
 				INFOPLIST_FILE = "Target Support Files/PAFoundation/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PAFoundation/PAFoundation.modulemap";
 				PRODUCT_MODULE_NAME = PAFoundation;
 				PRODUCT_NAME = PAFoundation;
@@ -3169,11 +3120,7 @@
 				INFOPLIST_FILE = "Target Support Files/WebViewJavascriptBridge/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WebViewJavascriptBridge/WebViewJavascriptBridge.modulemap";
 				PRODUCT_MODULE_NAME = WebViewJavascriptBridge;
 				PRODUCT_NAME = WebViewJavascriptBridge;
