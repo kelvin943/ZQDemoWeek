@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSLog(@"A开发需求提交");
+
+    NSLog(@"develop1 开发需求");
 
 
 
@@ -27,9 +28,6 @@
     [super viewDidDisappear:animated];
     NSLog (@" Disappear: %@",self.title);
 
-    NSLog(@"开发分支开发需求1");
-    NSLog(@"开发分支开发需求2");
-    NSLog(@"B开发需求提交");
 
 }
 
