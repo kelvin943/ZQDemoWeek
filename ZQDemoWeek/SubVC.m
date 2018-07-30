@@ -21,6 +21,8 @@
     NSLog(@"hotfix");
     NSLog(@"hotfix2");
     NSLog(@"hotfix2");
+     NSLog(@"开发分支修复BUG");
+    
 }
 
 -(void) viewDidDisappear:(BOOL)animated{
