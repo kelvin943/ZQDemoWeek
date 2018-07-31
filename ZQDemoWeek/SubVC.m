@@ -17,17 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
 }
 
 -(void) viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
     NSLog (@" Disappear: %@",self.title);
+    NSLog(@"同步修改");
 }
 
 -(void) viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     NSLog (@"Appear:%@",self.title);
+    NSLog(@"未和develop 同步 开发了任务");
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
