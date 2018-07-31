@@ -23,6 +23,8 @@
     [super viewDidDisappear:animated];
     NSLog (@" Disappear: %@",self.title);
     NSLog(@"同步修改");
+    NSLog(@"同步修改");
+    
 }
 
 -(void) viewWillAppear:(BOOL)animated{
