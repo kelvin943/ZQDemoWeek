@@ -32,6 +32,7 @@
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    //2の23(⊙o⊙)…23424
     // Dispose of any resources that can be recreated.
 }
 
