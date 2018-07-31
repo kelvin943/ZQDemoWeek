@@ -27,6 +27,7 @@
 -(void) viewDidDisappear:(BOOL)animated{
     [super viewDidDisappear:animated];
     NSLog (@" Disappear: %@",self.title);
+    NSLog(@"develop bug修改");
 }
 
 -(void) viewWillAppear:(BOOL)animated{
